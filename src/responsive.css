@@ -1,0 +1,52 @@
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+  .logo {
+    width: 20%;
+  }
+
+  .seat {
+    width: 45px !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+  }
+
+  .seat-icon {
+    font-size: 18px !important;
+  }
+
+  .book-dec {
+    font-size: 20px !important;
+  }
+
+  .add-ticket span {
+    font-size: 12px !important;
+  }
+
+  .price-bar {
+    padding: 5px 15px !important;
+  }
+
+  .ticket-table {
+    width: 100% !important;
+  }
+
+  .table-header {
+    font-size: 12px;
+  }
+
+  /* .select-seat {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 16px !important;
+    letter-spacing: 0.5px !important;
+  } */
+
+  .ticket-table {
+    width: 100% !important;
+  }
+  .pay-ticket div{
+    font-size: 12px;
+  }
+  .seat-type{
+    font-size: 16px;
+  }
+}

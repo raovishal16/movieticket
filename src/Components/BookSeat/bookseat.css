@@ -1,0 +1,101 @@
+.container-fluid {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.book-dec {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.category {
+  margin-bottom: 30px;
+}
+
+.category-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #343a40;
+  text-align: center;
+}
+
+.prime-sete-price {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #dc3545;
+  text-align: center;
+}
+
+.seat-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.seat-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.seat {
+  width: 6% !important;
+  height: 90px !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px !important;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.seat:hover {
+  background-color: #007bff;
+}
+
+.seat-icon {
+  font-size: 40px !important;
+  /* color: #000; */
+}
+
+.seat.selected {
+  background-color: #28a745;
+}
+.price-bar {
+  background: #334d50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cbcaa5,
+    #334d50
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cbcaa5,
+    #334d50
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  padding: 6px 10px !important;
+
+}
+.add-ticket span {
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.booked {
+  background-color: #ff0000;
+  color: #fff !important;
+  pointer-events: none;
+}
+.seat-type
+{
+  font-size: 20px;
+  letter-spacing: .5px;
+  font-weight: 500;
+}
